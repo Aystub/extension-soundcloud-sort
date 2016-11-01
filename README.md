@@ -1,6 +1,7 @@
 # extension-soundcloud-sort
 
 #### Chrome extension that injects the option of sorting into the New & Hot Chart page on SoundCloud.com
+##### Install it from [here](https://chrome.google.com/webstore/detail/sound-cloud-sort/ocdlgkpkfpkahhkjcjgfjkbeebhdfama) if you'd like
 Extension automatically listens for changes on the base soundcloud.com domain until the `window.location.href` matches the charts url scheme. Reason for that is soundcloud is a single page site that uses tons of async calls to fetch and display the site's content. 
 
 ---
